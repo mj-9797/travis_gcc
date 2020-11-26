@@ -6,8 +6,9 @@ arch:
 - arm64
 
 script:
+- clang --version 
 - gcc --version
 - whereis gcc
-- cat /usr/lib/gcc/aarch64-linux-gnu/7.5.0/include/stddef.h
-- gcc try.c
+#- cat /usr/lib/gcc/aarch64-linux-gnu/7.5.0/include/stddef.h
+- clang try.c
 - ./a.out
