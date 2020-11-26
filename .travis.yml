@@ -1,5 +1,5 @@
 language: c
-dist: focal
+dist: bionic
 
 arch:
 - amd64
@@ -8,6 +8,6 @@ arch:
 script:
 - gcc --version
 - whereis gcc
-- cat /usr/lib/gcc/aarch64-linux-gnu/5.4.0/include/stddef.h
+- cat /usr/lib/gcc/aarch64-linux-gnu/7.75.0/include/stddef.h
 - gcc try.c
 - ./a.out
