@@ -8,3 +8,4 @@ arch:
 script:
 - gcc --version
 - whereis gcc
+- cat /usr/lib/gcc/aarch64-linux-gnu/5.4.0/include/stddef.h
