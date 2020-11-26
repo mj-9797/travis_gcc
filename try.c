@@ -4,7 +4,6 @@ int main()
 { 
         printf("Hello How are you");
         size_t ab=5;
-        print
         if (ab >= 0)
         {
           printf("%ld", ab);
