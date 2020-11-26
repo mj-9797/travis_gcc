@@ -1,0 +1,9 @@
+language: c
+dist: xenial
+
+arch:
+- amd64
+- arm64
+
+script:
+- gcc --version
