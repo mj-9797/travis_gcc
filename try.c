@@ -1,10 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
-{
+{ 
+        printf("Hello How are you");
         size_t ab=5;
+        print
         if (ab >= 0)
         {
-          printf("%d", ab);
+          printf("%ld", ab);
         }
         else
         {
