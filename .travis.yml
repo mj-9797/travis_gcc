@@ -1,6 +1,6 @@
 language: c
 dist: bionic
-
+compiler: clang 
 arch:
 - amd64
 - arm64
