@@ -1,13 +1,15 @@
 #include<stdio.h>
 int main()
 {
-#ifdef __GNUG__
-                printf("qwertyuio");
-                printf("I am wrong");
-#else
-                printf ("123456789");
-                printf("I am right");
-#endif
+        size_t ab=5;
+        if (ab >= 0)
+        {
+          printf("%d", ab);
+        }
+        else
+        {
+          printf("I am wrong");
+        }
         return 0;
 
 }
