@@ -10,5 +10,7 @@ script:
 - gcc --version
 - whereis gcc
 #- cat /usr/lib/gcc/aarch64-linux-gnu/7.5.0/include/stddef.h
-- clang try.c
-- ./a.out
+- gcc try.c -o try_gcc
+- ./try_gcc
+- clang try.c -o try_clang
+- ./try_clang
